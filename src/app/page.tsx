@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="font-inter">
       <main className="">
-        <section className="bg-[url('/img/1.webp')] clip w-[2300] h-[500] flex">
+        <section className="bg-[url('/img/1.webp')] clip bg-cover bg-center bg-no-repeat w-full h-125 flex">
           <div className="flex flex-col gap-6 mx-5 my-5">
             <h1 className="font-bold">ТУТ БУДЕТ АДЕКВАТНЫЙ ТЕКСТ</h1>
             <Button>Записаться</Button>
@@ -15,16 +15,36 @@ export default function Home() {
 
         {/* <Image src={}></Image> */}
         <section className="mx-5 my-5 ">
-          <div className="content-center">
-            <h1 className="text-4xl font-bold">
+          <div className="my-5 mx-5">
+            <h1 className="text-4xl font-bold text-center">
               ПРИГЛАШАЮ НА ОЧНЫЕ И ОНЛАЙН КОНСУЛЬТАЦИИ
             </h1>
           </div>
-          <div>
+          <div className="flex flex-col gap-5">
             <ServicesCategory title="Чоловіки">
               Готова підтримати Вас у складний момент та допомогти повернути
               радість життя.
             </ServicesCategory>
+            <ServicesCategory title="GOU">JID</ServicesCategory>
+          </div>
+        </section>
+        <section className="bg-[url('/img/2.webp')] clip2 bg-cover bg-center bg-no-repeat w-full  h-125 flex">
+          <div className="my-10 mx-10">
+            <h1 className="text-4xl">Я помогу вам!</h1>
+            <div className="text-2xl ">
+              <p>
+                Пережити стан гострого стресу (війна, втрата домівки, роботи або
+                близьких);
+              </p>
+              <p>
+                Пережити стан гострого стресу (війна, втрата домівки, роботи або
+                близьких);
+              </p>
+              <p>
+                Пережити стан гострого стресу (війна, втрата домівки, роботи або
+                близьких);
+              </p>
+            </div>
           </div>
         </section>
       </main>
