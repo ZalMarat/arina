@@ -9,7 +9,7 @@ export default function Header() {
 
         <nav className="text-2xl md:flex gap-5">
           <Link href="">Консультации</Link>
-          <Link href="">Услуги</Link>
+          <Link href="/services">Услуги</Link>
           <Link href="/about">Обо мне</Link>
           <Link href="">Цены</Link>
           <Link href="">Отзывы</Link>

@@ -1,5 +1,5 @@
 import Button from "@/components/button";
-import ServicesCategory from "@/components/services";
+import ServicesCategory from "@/components/about";
 import Image from "next/image";
 
 export default function Home() {
