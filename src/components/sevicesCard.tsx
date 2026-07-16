@@ -8,12 +8,13 @@ export default function ServicesCard({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-linear-[#F3C98A] w-77.5 h-98.5 rounded-4xl">
-      <div>
-        <h1>{title}</h1>
+    <div className="flex h-[374px] w-77.5 flex-col rounded-4xl bg-[#F3C98A] p-8 text-white mt-12">
+      <h2 className="text-center text-2xl font-bold">{title}</h2>
+      <div className="mt-10 text-center text-4xl font-bold text-[#5F6570]">
+        {children}
       </div>
-      <div>{children}</div>
-      <div>
+
+      <div className="mt-auto flex justify-center">
         <Button>Записаться</Button>
       </div>
     </div>
