@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Card({
   title,
   children,
@@ -8,11 +6,10 @@ export default function Card({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-linear-[#F3C98A] w-77.5 h-98.5 rounded-4xl text-white font-bold">
-      <div className="text-center py-15 text-[38px] my-5">
-        <span>{title}</span>
-      </div>
-      <div className="text-center text-[24px]">{children}</div>
+    <div className="flex h-[320px] w-full flex-col rounded-[32px] bg-[#F3C98A] p-6 text-white md:h-[394px] md:w-[310px]">
+      <h3 className="text-center text-2xl font-bold md:text-4xl">{title}</h3>
+
+      <div className="mt-8 text-center text-lg md:text-2xl">{children}</div>
     </div>
   );
 }

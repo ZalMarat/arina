@@ -2,14 +2,13 @@ import Button from "./button";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#92C8DB] font-inter">
-      <div className="flex justify-between mx-5 my-5">
-        <div className="container text-black font-bold my-5">
-          <h4>Черемисова Арина Вадимовна</h4>
-        </div>
-        <div className="my-5">
-          <Button>Записаться</Button>
-        </div>
+    <footer className="bg-[#92C8DB]">
+      <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-5 py-8 md:flex-row">
+        <h4 className="text-center text-xl font-bold text-black md:text-2xl">
+          Черемисова Арина Вадимовна
+        </h4>
+
+        <Button>Записаться</Button>
       </div>
     </footer>
   );
